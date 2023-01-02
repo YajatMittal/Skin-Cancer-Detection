@@ -18,7 +18,7 @@ drive.mount('/content/drive')
 
 # Visualising Images
 
-for image in glob.glob(f'/content/data/test/benign/*'): 
+for image in glob.glob('/content/data/test/benign/*'): 
   img = plt.imread(image)
   plt.imshow(img)
   plt.show()
